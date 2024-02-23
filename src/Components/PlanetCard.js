@@ -65,7 +65,7 @@ const PlanetCard = (props) => {
         </button>
       </div>
       {isModalOpen && (
-        <div className="fixed inset-0 overflow-y-auto z-20">
+        <div className="fixed inset-0 overflow-y-auto z-20 w-screen">
           <div className="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
             <div
               className="fixed inset-0 transition-opacity"
@@ -80,12 +80,12 @@ const PlanetCard = (props) => {
               &#8203;
             </span>
             <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
-              <div className="p-6">
+              <div className="p-6 w-96 md:w-auto">
                 <h2 className="text-2xl font-semibold mb-4">
                   Residents Details
                 </h2>
 
-                <div className="">
+                <div className="max-h-96 overflow-y-scroll no-scrollbar">
                   {residentDetails.length > 0 ? (
                     residentDetails.map((resident, index) => (
                       <ResidentDetails key={index} data={resident} />

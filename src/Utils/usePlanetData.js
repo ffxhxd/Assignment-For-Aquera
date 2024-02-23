@@ -6,7 +6,10 @@ const usePlanetData = (page) => {
 
   useEffect(() => {
     //debouncing
-    const timer = setTimeout(() => fetchData(), 100);
+    const timer = setTimeout(() => {
+      fetchData();
+      // console.log("api called");
+    }, 200);
 
     //clean up
     return () => {
