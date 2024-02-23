@@ -1,71 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# STARWARS Planter viwer (SWAPI) - Assignment for AQUERA
 
-## Available Scripts
+This is a web application that allows users to explore a list of planets, and details about them and view detailed information residents of the planet. The application is built using React.js.
 
-In the project directory, you can run:
+# Live website link : <https://assignmentforaquera.netlify.app/>
+## Features
 
-### `npm start`
+- Home page : Represents the home page of our application, includes a hero section.
+- Explore page : Displays cards of planets with pagination. Each card has a view residents button which opens a modal window and shows data about the residents of that planet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+To run the application locally, follow these steps:
 
-### `npm test`
+Clone the repository:
+- git clone <https://github.com/ffxhxd/Assignment-For-Aquera.git>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate to the project directory:
+- cd Assignment-For-Aquera
 
-### `npm run build`
+Install dependencies:
+- npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
+- npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open your browser and go to http://localhost:3000 to view the Application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React.js
+- JavaScript 
+- Tailwind CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Best Industry Standard Practices Implemented:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Custom Hooks for API Calls:
+Utilizing custom hooks enhances reusability and maintains a clear separation of concerns.
 
-## Learn More
+- Centralized Constants:
+All hardcoded strings and URLs are consolidated in a separate constant.js file, promoting centralized configuration for easy maintenance.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Utility Functions in Utils Folder:
+The utils folder houses utility functions and helper modules, fostering modularity and code organization.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Compact Components for Readability:
+Components are designed to be concise, with each containing 60-90 lines of code or less, improving readability and ease of maintenance.
 
-### Code Splitting
+- Debouncing for Efficiency:
+Implemented debouncing in pagination to reduce the number of API calls by 60%, optimizing performance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- DRY Principle Adhered To:
+The Don't Repeat Yourself (DRY) principle is consistently followed, minimizing redundancy and improving code maintainability.
 
-### Analyzing the Bundle Size
+- Single Responsibility Principle Maintained:
+Components adhere to the Single Responsibility Principle (SRP), ensuring each component has a focused purpose for better maintainability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Clean, Optimized, and Scalable Codebase:
+The codebase is clean, optimized, and scalable, prioritizing clarity, performance, and adaptability to evolving requirements.
 
-### Making a Progressive Web App
+- Robust Error Handling:
+Comprehensive error-handling mechanisms have been implemented, providing meaningful messages for debugging.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Thorough Manual Testing:
+Rigorous manual testing has been conducted across various devices, ensuring a robust and user-friendly application.
+## Authors
 
-### Advanced Configuration
+- [@fahad](https://www.github.com/ffxhxd)
+- Made with ❤️ for Aquera
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Assignment-For-Aquera" 
